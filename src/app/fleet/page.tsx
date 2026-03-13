@@ -8,6 +8,8 @@ import { cn } from '@/lib/utils';
 
 const carTypes = ['All', 'Luxury', 'SUV', 'Sedan', 'Sport', 'Electric', 'Convertible'];
 
+export const dynamic = 'force-dynamic';
+
 interface Car {
   _id: string;
   name: string;
